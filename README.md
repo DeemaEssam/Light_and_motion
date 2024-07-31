@@ -15,14 +15,12 @@ All sensor data and LED states are saved in a database.
 
 - **PIR Sensor**: Detects motion based on infrared radiation changes.
 - **Light Sensor**: Detects the presence or absence of light.
-- **Relay**: Controls the power to the LED.
 - **LED**: Indicates the state based on sensor input.
 
 ## System Requirements
 
 - **Microcontroller/Platform**: ESP32 (or similar)
 - **Sensors**: PIR sensor (for movement detection), Light sensor (e.g., LDR)
-- **Actuator**: Relay module
 - **Database**: MySQL (or similar)
 
 ## Setup
@@ -30,12 +28,10 @@ All sensor data and LED states are saved in a database.
 1. **Hardware Connections**:
     - Connect the PIR sensor to the ESP32.
     - Connect the light sensor to the ESP32.
-    - Connect the relay module to the ESP32 to control the LED.
-    - Connect the LED to the relay module.
 
 2. **Software Setup**:
-    - Install necessary libraries for sensor and relay control.
-    - Configure the microcontroller code to read from the PIR sensor and light sensor, and control the relay based on the conditions outlined.
+    - Install necessary libraries for sensor control.
+    - Configure the microcontroller code to read from the PIR sensor and light sensor.
 
 3. **Database Configuration**:
     - Set up a MySQL database to store sensor readings and LED states.
@@ -48,8 +44,7 @@ Here's a brief overview of the code logic:
 1. Read the light sensor value.
 2. Read the PIR sensor value to detect movement.
 3. Determine the LED state based on the light sensor value and PIR sensor data.
-4. Control the relay to turn the LED on or off accordingly.
-5. Save the sensor readings and LED state to the database.
+4. Save the sensor readings and LED state to the database.
 
    
 ## Database Schema
