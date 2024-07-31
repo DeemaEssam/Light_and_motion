@@ -51,6 +51,7 @@ Here's a brief overview of the code logic:
 4. Control the relay to turn the LED on or off accordingly.
 5. Save the sensor readings and LED state to the database.
 
+   
 ## Database Schema
 
 The database should have a table to store the sensor data and LED state:
@@ -67,4 +68,4 @@ CREATE TABLE `sensor_data` (
 
 ## Output
 
-![ضوء بدون حركة](https://github.com/user-attachments/assets/502df3b5-8f37-4c67-8581-5c2d20a011f0)
+![ضوء بدون حركة2](https://github.com/user-attachments/assets/1e335f0c-bc89-428e-b8c8-efb1b7347205)
