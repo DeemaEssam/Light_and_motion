@@ -68,4 +68,8 @@ CREATE TABLE `sensor_data` (
 
 ## Output
 
+ <img src="https://github.com/user-attachments/assets/1e335f0c-bc89-428e-b8c8-efb1b7347205" width="680" height="290">
+
+
+ 
 ![ضوء بدون حركة2](https://github.com/user-attachments/assets/1e335f0c-bc89-428e-b8c8-efb1b7347205)
