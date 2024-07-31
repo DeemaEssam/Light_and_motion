@@ -6,8 +6,8 @@ const int lightSensorPin = 34; // Analog pin for light sensor
 const int pirSensorPin = 27;   // Digital pin for PIR sensor
 
 // Replace with your network credentials
-const char *ssid = "Smart_Methods1";
-const char *password = "123456789";
+const char *ssid = "";
+const char *password = "";
 
 // Replace with your server's URL
 const char *serverName = "http://update_sensor_data.php";
